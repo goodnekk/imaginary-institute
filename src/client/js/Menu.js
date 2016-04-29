@@ -28,7 +28,7 @@ var Menu = {
     },
     view: function(ctrl){
         return m("div", [
-            m("div", {id:"title"}, "imagininary institute"),
+            m("div", {id:"title"}, "imaginary institute"),
             m("div", {id:"links"}, [
                 m("a", {onclick: ctrl.sessions.bind(ctrl), class: ctrl.sessionsClass}, "sessions"),
                 m("a", {onclick: ctrl.how.bind(ctrl), class: ctrl.howClass}, "how does it work?"),
