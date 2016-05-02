@@ -41,7 +41,11 @@ var Sessions = {
     view: function(ctrl){
         return m("div", [
             m.component(Menu),
-            m("div", {class: "textblock"}, "Thursday 20th, ... rotterdam"),
+            m("div", {class: "textblock"}, "Thursday 19th May, 19:30 / MONO Rotterdam, Zomerhofstraat 76"),
+            m("div", {class: "noteblock"}, [
+                m("a", {href:"https://www.facebook.com/events/232566087112268/"},"fb event"),
+                m("a", {href:"http://www.meetup.com/Imaginary-Institute-Meetup/events/230317787/"},"meetup event"),
+            ]),
             m("div",{class: "sessionblock"}, [
                 m("textarea", {
                     placeholder: "add an idea...", maxlength:"100",

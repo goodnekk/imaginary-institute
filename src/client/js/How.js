@@ -28,7 +28,6 @@ var How = {
                 m("span", {class: "number"}, "5"),
                 m("span", "Join the session you find most interesting, and see what happens...")
             ]),
-            m("div", {class: "textblock"}, "We're currently at stage 1, trying to find a good place"),
             m("div", {class: "bottom"}, [])
         ]);
     }
