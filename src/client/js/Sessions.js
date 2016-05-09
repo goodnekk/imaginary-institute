@@ -44,7 +44,7 @@ var Sessions = {
             m("div", {class: "textblock"}, "Saturday 21st May, 19:30 / MONO Rotterdam, Zomerhofstraat 76"),
             m("div", {class: "noteblock"}, [
                 m("a", {href:"https://www.facebook.com/events/232566087112268/"},"fb event"),
-                m("a", {href:"http://www.meetup.com/Imaginary-Institute-Meetup/events/230317787/"},"meetup event"),
+                m("a", {href:"http://www.meetup.com/Imaginary-Institute-Meetup/events/230984027/"},"meetup event"),
             ]),
             m("div",{class: "sessionblock"}, [
                 m("textarea", {
