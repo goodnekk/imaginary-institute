@@ -42,7 +42,7 @@ app.post('/api/sessions', function (req, res) {
 
 //run server
 app.listen(90, function () {
-    console.log('App listening on port 80!');
+    console.log('App listening on port 90!');
 });
 
 
